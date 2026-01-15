@@ -1,0 +1,21 @@
+{
+  "name": "edubridge-unified-learning-hub",
+  "version": "1.0.0",
+  "description": "EduBridge - Unified Learning Hub: Complete educational platform from LKG to Post-Grad",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "serve": "npx http-server . -p 3000 -o",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": [
+    "education",
+    "learning",
+    "platform",
+    "students",
+    "resources"
+  ],
+  "author": "",
+  "license": "MIT"
+}
