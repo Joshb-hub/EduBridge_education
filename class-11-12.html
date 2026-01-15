@@ -1,0 +1,52 @@
+<section class="page-section py-16 px-4 bg-gradient-to-b from-slate-50 to-violet-50 min-h-screen">
+    <div class="max-w-7xl mx-auto">
+        <button onclick="loadPage('pages/home.html'); return false;" class="back-btn mb-8 inline-block px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-lg font-semibold transition-colors">← Back to Home</button>
+        
+        <div class="text-center mb-12">
+            <h2 class="text-4xl md:text-5xl font-black bg-gradient-to-r from-violet-500 to-indigo-500 bg-clip-text text-transparent mb-4">
+                📚 Classes 11 - 12
+            </h2>
+            <p class="text-gray-600 text-lg md:text-xl max-w-2xl mx-auto">
+                Senior Secondary Education - Choose your stream
+            </p>
+        </div>
+
+        <!-- Stream Selection -->
+        <div class="grid md:grid-cols-3 gap-6 mb-12">
+            <!-- Science Stream -->
+            <div onclick="loadPage('pages/subjects/class-11-12-science.html'); return false;" 
+                class="bg-gradient-to-br from-blue-500 to-cyan-600 rounded-2xl p-8 text-white card-lift cursor-pointer shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                <div class="text-6xl mb-4">🔬</div>
+                <h3 class="text-2xl font-black mb-2">Science Stream</h3>
+                <p class="opacity-95 mb-4">Physics | Chemistry | Biology | Mathematics</p>
+                <div class="text-sm opacity-90">For medical, engineering & science aspirants</div>
+            </div>
+            
+            <!-- Commerce Stream -->
+            <div onclick="loadPage('pages/subjects/class-11-12-commerce.html'); return false;" 
+                class="bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl p-8 text-white card-lift cursor-pointer shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                <div class="text-6xl mb-4">💼</div>
+                <h3 class="text-2xl font-black mb-2">Commerce Stream</h3>
+                <p class="opacity-95 mb-4">Accounts | Economics | Business Studies</p>
+                <div class="text-sm opacity-90">For commerce & MBA aspirants</div>
+            </div>
+            
+            <!-- Arts Stream -->
+            <div onclick="loadPage('pages/subjects/class-11-12-arts.html'); return false;" 
+                class="bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl p-8 text-white card-lift cursor-pointer shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                <div class="text-6xl mb-4">🎨</div>
+                <h3 class="text-2xl font-black mb-2">Arts Stream</h3>
+                <p class="opacity-95 mb-4">History | Geography | Political Science | Economics</p>
+                <div class="text-sm opacity-90">For humanities & social science aspirants</div>
+            </div>
+        </div>
+
+        <!-- Info Box -->
+        <div class="bg-violet-50 border-l-4 border-violet-500 rounded-lg p-6">
+            <h4 class="font-bold text-violet-900 mb-2">📖 About Classes 11-12</h4>
+            <p class="text-violet-800 text-sm">
+                Classes 11 and 12 are the most critical years for your academic future. Select your stream above to access stream-specific subjects, notes, question papers, and comprehensive study materials.
+            </p>
+        </div>
+    </div>
+</section>

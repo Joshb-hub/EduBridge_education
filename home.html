@@ -1,0 +1,179 @@
+<section class="page-section">
+    <!-- Hero Section -->
+    <div class="relative bg-gradient-to-br from-violet-600 via-purple-600 to-fuchsia-600 text-white py-20 md:py-32 px-4 overflow-hidden">
+        <!-- Animated Background Elements -->
+        <div class="absolute inset-0 opacity-20">
+            <div class="absolute top-10 left-10 w-72 h-72 bg-blue-400 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
+            <div class="absolute top-40 right-10 w-72 h-72 bg-purple-400 rounded-full mix-blend-multiply filter blur-xl animate-pulse delay-700"></div>
+            <div class="absolute -bottom-8 left-1/2 w-72 h-72 bg-pink-400 rounded-full mix-blend-multiply filter blur-xl animate-pulse delay-1000"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto relative z-10 text-center">
+            <div class="mb-6 animate-fadeInDown">
+                <span class="inline-block bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                    🎓 Complete Educational Platform
+                </span>
+            </div>
+            <h1 class="text-5xl md:text-7xl font-black mb-6 drop-shadow-2xl animate-fadeIn">
+                From LKG to Post-Grad
+            </h1>
+            <p class="text-2xl md:text-3xl mb-4 font-semibold opacity-95 animate-fadeIn">
+                One Platform for All Learning
+            </p>
+            <p class="text-lg md:text-xl mb-10 opacity-90 max-w-2xl mx-auto animate-fadeIn">
+                Discover syllabus-aligned resources, study materials, videos, PDFs, and notes organized by class, stream, and subject.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fadeIn">
+                <button onclick="loadPage('pages/boards.html'); return false;" 
+                    class="bg-white text-purple-600 px-8 py-4 rounded-full font-bold text-lg btn-smooth shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300">
+                    🚀 Browse Learning Paths
+                </button>
+                <button onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'}); return false;" 
+                    class="bg-white/10 backdrop-blur-sm text-white border-2 border-white px-8 py-4 rounded-full font-bold text-lg btn-smooth hover:bg-white/20 transition-all duration-300">
+                    Learn More
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Strip -->
+    <div class="bg-white border-y border-gray-200 shadow-md py-8 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-8 text-center">
+                <div>
+                    <div class="text-3xl md:text-4xl font-black text-sky-500">20+</div>
+                    <div class="text-sm md:text-base text-gray-600 font-semibold">Classes</div>
+                </div>
+                <div class="hidden sm:block text-gray-300">|</div>
+                <div>
+                    <div class="text-3xl md:text-4xl font-black text-cyan-500">30+</div>
+                    <div class="text-sm md:text-base text-gray-600 font-semibold">Subjects</div>
+                </div>
+                <div class="hidden sm:block text-gray-300">|</div>
+                <div>
+                    <div class="text-3xl md:text-4xl font-black text-teal-500">1000+</div>
+                    <div class="text-sm md:text-base text-gray-600 font-semibold">Resources</div>
+                </div>
+                <div class="hidden sm:block text-gray-300">|</div>
+                <div>
+                    <div class="text-3xl md:text-4xl font-black text-violet-500">8+</div>
+                    <div class="text-sm md:text-base text-gray-600 font-semibold">Streams</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div id="features" class="max-w-7xl mx-auto px-4 py-20">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-black bg-gradient-to-r from-sky-500 via-cyan-500 to-teal-500 bg-clip-text text-transparent mb-4">
+                Why Choose EduBridge?
+            </h2>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                Everything you need for academic success, organized and accessible
+            </p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+            <div class="bg-white rounded-2xl p-8 shadow-lg card-lift border-t-4 border-sky-400 hover:border-sky-600 transition-all">
+                <div class="text-5xl mb-4">📚</div>
+                <h3 class="text-xl font-bold text-sky-600 mb-3">Comprehensive Resources</h3>
+                <p class="text-gray-600 leading-relaxed">Study notes, videos, PDFs, books, and links - all in one organized place</p>
+            </div>
+            
+            <div class="bg-white rounded-2xl p-8 shadow-lg card-lift border-t-4 border-cyan-400 hover:border-cyan-600 transition-all">
+                <div class="text-5xl mb-4">🎯</div>
+                <h3 class="text-xl font-bold text-cyan-600 mb-3">Syllabus-Aligned</h3>
+                <p class="text-gray-600 leading-relaxed">Every resource organized according to official syllabi and curriculum</p>
+            </div>
+            
+            <div class="bg-white rounded-2xl p-8 shadow-lg card-lift border-t-4 border-teal-400 hover:border-teal-600 transition-all">
+                <div class="text-5xl mb-4">🔍</div>
+                <h3 class="text-xl font-bold text-teal-600 mb-3">Easy Navigation</h3>
+                <p class="text-gray-600 leading-relaxed">Find what you need quickly with our intuitive class-wise and subject-wise structure</p>
+            </div>
+            
+            <div class="bg-white rounded-2xl p-8 shadow-lg card-lift border-t-4 border-violet-400 hover:border-violet-600 transition-all">
+                <div class="text-5xl mb-4">🚀</div>
+                <h3 class="text-xl font-bold text-violet-600 mb-3">Student-Friendly</h3>
+                <p class="text-gray-600 leading-relaxed">Beautiful, modern interface designed for learners of all ages</p>
+            </div>
+        </div>
+
+        <!-- Education Levels Preview -->
+        <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-3xl p-8 md:p-12 shadow-xl">
+            <h3 class="text-3xl font-black text-center mb-8 bg-gradient-to-r from-sky-600 to-cyan-600 bg-clip-text text-transparent">
+                Complete Educational Journey
+            </h3>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-white rounded-xl p-6 shadow-md">
+                    <div class="text-3xl mb-2">🎨</div>
+                    <div class="font-bold text-gray-800">LKG - UKG</div>
+                    <div class="text-sm text-gray-600">Foundational Learning</div>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-md">
+                    <div class="text-3xl mb-2">📝</div>
+                    <div class="font-bold text-gray-800">Classes 1-5</div>
+                    <div class="text-sm text-gray-600">Primary Education</div>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-md">
+                    <div class="text-3xl mb-2">✏️</div>
+                    <div class="font-bold text-gray-800">Classes 6-10</div>
+                    <div class="text-sm text-gray-600">Secondary Education</div>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-md">
+                    <div class="text-3xl mb-2">🔬</div>
+                    <div class="font-bold text-gray-800">Classes 11-12</div>
+                    <div class="text-sm text-gray-600">Senior Secondary</div>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-md">
+                    <div class="text-3xl mb-2">🎓</div>
+                    <div class="font-bold text-gray-800">Undergraduate</div>
+                    <div class="text-sm text-gray-600">Higher Education</div>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-md">
+                    <div class="text-3xl mb-2">🏆</div>
+                    <div class="font-bold text-gray-800">Postgraduate</div>
+                    <div class="text-sm text-gray-600">Advanced Studies</div>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <button onclick="loadPage('pages/boards.html'); return false;" 
+                    class="bg-gradient-to-r from-sky-500 to-cyan-500 text-white px-8 py-3 rounded-full font-bold hover:from-sky-600 hover:to-cyan-600 transition-all shadow-lg">
+                    Explore All Levels →
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resource Types Section -->
+    <div class="bg-gradient-to-br from-slate-100 to-slate-200 py-20">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-4xl font-black text-center mb-12 bg-gradient-to-r from-slate-700 to-slate-900 bg-clip-text text-transparent">
+                What You'll Find
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white rounded-xl p-6 shadow-lg text-center">
+                    <div class="text-4xl mb-3">📄</div>
+                    <h4 class="font-bold text-gray-800 mb-2">PDF Resources</h4>
+                    <p class="text-sm text-gray-600">Textbooks, notes, and study guides</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-lg text-center">
+                    <div class="text-4xl mb-3">🎥</div>
+                    <h4 class="font-bold text-gray-800 mb-2">YouTube Videos</h4>
+                    <p class="text-sm text-gray-600">Educational videos and tutorials</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-lg text-center">
+                    <div class="text-4xl mb-3">🔗</div>
+                    <h4 class="font-bold text-gray-800 mb-2">Reference Links</h4>
+                    <p class="text-sm text-gray-600">External websites and resources</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-lg text-center">
+                    <div class="text-4xl mb-3">📝</div>
+                    <h4 class="font-bold text-gray-800 mb-2">Study Notes</h4>
+                    <p class="text-sm text-gray-600">Comprehensive notes and summaries</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,254 @@
+<section class="page-section py-16 px-4 bg-gradient-to-b from-slate-50 to-blue-50 min-h-screen">
+    <div class="max-w-7xl mx-auto">
+        <button onclick="loadPage('pages/home.html'); return false;" class="back-btn mb-8 inline-block px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-lg font-semibold transition-colors">← Back to Home</button>
+        
+        <div class="text-center mb-12">
+            <h2 class="text-4xl md:text-5xl font-black bg-gradient-to-r from-sky-500 via-cyan-500 to-teal-500 bg-clip-text text-transparent mb-4">
+                📚 Select Your Board
+            </h2>
+            <p class="text-gray-600 text-lg md:text-xl max-w-2xl mx-auto">
+                Choose your board to access class-wise learning resources (LKG to Class 10)
+            </p>
+        </div>
+
+        <!-- National Boards -->
+        <div class="mb-16">
+            <h3 class="text-2xl font-black text-gray-800 mb-6">National Boards</h3>
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+                <!-- ICSE Board -->
+                <div onclick="loadPage('pages/boards/icse-classes.html'); return false;" 
+                    class="bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl p-8 text-white card-lift cursor-pointer shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                    <div class="text-6xl mb-4">🏛️</div>
+                    <h3 class="text-2xl font-black mb-2">ICSE Board</h3>
+                    <p class="opacity-95 mb-4">Indian Certificate of Secondary Education</p>
+                    <div class="text-sm opacity-90">Classes: LKG to Class 10</div>
+                </div>
+                
+                <!-- CBSE Board -->
+                <div onclick="loadPage('pages/boards/cbse-classes.html'); return false;" 
+                    class="bg-gradient-to-br from-orange-500 to-red-600 rounded-2xl p-8 text-white card-lift cursor-pointer shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                    <div class="text-6xl mb-4">🇮🇳</div>
+                    <h3 class="text-2xl font-black mb-2">CBSE Board</h3>
+                    <p class="opacity-95 mb-4">Central Board of Secondary Education</p>
+                    <div class="text-sm opacity-90">Classes: LKG to Class 10</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- State Boards -->
+        <div>
+            <h3 class="text-2xl font-black text-gray-800 mb-6">State Boards</h3>
+            <p class="text-gray-600 mb-6 text-sm md:text-base">Select your state board for region-specific curriculum</p>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- State Board Cards -->
+                <div onclick="loadPage('pages/boards/state-andhra-pradesh-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Andhra Pradesh</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-telangana-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Telangana</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-tamil-nadu-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Tamil Nadu</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-karnataka-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Karnataka</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-kerala-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Kerala</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-maharashtra-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Maharashtra</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-gujarat-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Gujarat</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-rajasthan-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Rajasthan</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-uttar-pradesh-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Uttar Pradesh</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-madhya-pradesh-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Madhya Pradesh</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-bihar-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Bihar</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-west-bengal-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ West Bengal</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-odisha-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Odisha</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-punjab-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Punjab</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-haryana-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Haryana</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-himachal-pradesh-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Himachal Pradesh</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-uttarakhand-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Uttarakhand</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-jharkhand-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Jharkhand</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-chhattisgarh-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Chhattisgarh</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-assam-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Assam</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-meghalaya-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Meghalaya</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-manipur-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Manipur</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-mizoram-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Mizoram</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-nagaland-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Nagaland</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-tripura-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Tripura</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-sikkim-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Sikkim</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-goa-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Goa</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-jammu-kashmir-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Jammu & Kashmir</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+                
+                <div onclick="loadPage('pages/boards/state-arunachal-pradesh-classes.html'); return false;" 
+                    class="bg-white rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer border-l-4 border-cyan-500 hover:border-cyan-600 transition-all transform hover:scale-102">
+                    <div class="font-bold text-gray-800">🏛️ Arunachal Pradesh</div>
+                    <p class="text-xs text-gray-600 mt-1">Classes: LKG to Class 10</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Higher Education Section -->
+        <div class="mt-20 pt-12 border-t-2 border-gray-300">
+            <h3 class="text-2xl font-black text-gray-800 mb-6">Higher Education (Global)</h3>
+            <p class="text-gray-600 mb-6 text-sm md:text-base">These streams are universal across all boards</p>
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Classes 11-12 -->
+                <div onclick="loadPage('pages/subjects/class-11-12.html'); return false;" 
+                    class="bg-gradient-to-br from-violet-500 to-indigo-600 rounded-2xl p-8 text-white card-lift cursor-pointer shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                    <div class="text-6xl mb-4">📚</div>
+                    <h3 class="text-2xl font-black mb-2">Classes 11 - 12</h3>
+                    <p class="opacity-95 mb-4">Senior Secondary Education</p>
+                    <div class="text-sm opacity-90">Science | Commerce | Arts</div>
+                </div>
+                
+                <!-- Undergraduate -->
+                <div onclick="loadPage('pages/subjects/undergraduate.html'); return false;" 
+                    class="bg-gradient-to-br from-blue-500 to-cyan-600 rounded-2xl p-8 text-white card-lift cursor-pointer shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                    <div class="text-6xl mb-4">🎓</div>
+                    <h3 class="text-2xl font-black mb-2">Undergraduate</h3>
+                    <p class="opacity-95 mb-4">Higher Education</p>
+                    <div class="text-sm opacity-90">Engineering | Science | Commerce | Arts</div>
+                </div>
+                
+                <!-- Postgraduate -->
+                <div onclick="loadPage('pages/subjects/postgraduate.html'); return false;" 
+                    class="bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl p-8 text-white card-lift cursor-pointer shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                    <div class="text-6xl mb-4">🏆</div>
+                    <h3 class="text-2xl font-black mb-2">Postgraduate</h3>
+                    <p class="opacity-95 mb-4">Advanced Studies</p>
+                    <div class="text-sm opacity-90">Master's Programs & Specializations</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

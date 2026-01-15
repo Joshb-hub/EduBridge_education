@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Resources - Class 8</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-b from-green-50 to-slate-100">
+    <section class="py-16 px-4">
+        <div class="max-w-6xl mx-auto">
+            <button onclick="loadPage('pages/subjects/class-8.html')" class="flex items-center gap-2 text-green-600 hover:text-green-800 font-semibold mb-8">
+                <span>←</span> Back to Class 8
+            </button>
+
+            <div class="bg-white rounded-2xl shadow-xl p-8 mb-12">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="text-5xl">🔬</div>
+                    <div>
+                        <h1 class="text-4xl font-black text-gray-800">Science</h1>
+                        <p class="text-gray-600">Class 8 | Structure & Reactions</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div onclick="loadPage('pages/resources/class-8-physics.html')" class="bg-white rounded-2xl shadow-lg p-8 cursor-pointer card-lift hover:shadow-2xl transition-all border-l-4 border-cyan-500 hover:border-cyan-700">
+                    <div class="text-5xl mb-4">⚛️</div>
+                    <h3 class="text-2xl font-black text-gray-800 mb-2">Physics</h3>
+                    <p class="text-gray-600">Forces & Energy</p>
+                    <div class="flex items-center text-cyan-600 font-bold mt-4"><span>View Resources</span><span class="ml-2">→</span></div>
+                </div>
+
+                <div onclick="loadPage('pages/resources/class-8-chemistry.html')" class="bg-white rounded-2xl shadow-lg p-8 cursor-pointer card-lift hover:shadow-2xl transition-all border-l-4 border-orange-500 hover:border-orange-700">
+                    <div class="text-5xl mb-4">🧪</div>
+                    <h3 class="text-2xl font-black text-gray-800 mb-2">Chemistry</h3>
+                    <p class="text-gray-600">Elements & Reactions</p>
+                    <div class="flex items-center text-orange-600 font-bold mt-4"><span>View Resources</span><span class="ml-2">→</span></div>
+                </div>
+
+                <div onclick="loadPage('pages/resources/class-8-biology.html')" class="bg-white rounded-2xl shadow-lg p-8 cursor-pointer card-lift hover:shadow-2xl transition-all border-l-4 border-emerald-500 hover:border-emerald-700">
+                    <div class="text-5xl mb-4">🧬</div>
+                    <h3 class="text-2xl font-black text-gray-800 mb-2">Biology</h3>
+                    <p class="text-gray-600">Genetics & Evolution</p>
+                    <div class="flex items-center text-emerald-600 font-bold mt-4"><span>View Resources</span><span class="ml-2">→</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/navigation.js"></script>
+</body>
+</html>
