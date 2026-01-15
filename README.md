@@ -6,6 +6,32 @@ A complete educational web platform built with **HTML + Tailwind CSS** that orga
 
 ---
 
+## 🌐 Live Website
+
+🔗 **EduBridge – Unified Learning Hub (Live Demo)**  
+[https://your-project-link.vercel.app](https://your-project-link.vercel.app)  
+*(Replace with your actual deployed link)*
+
+---
+
+## 🖼️ Screenshots
+
+> Visual overview of the platform and its navigation flow.
+
+### 🏠 Landing Page
+![Landing Page](screenshots/landing-page.png)
+
+### 🏫 Board Selection (ICSE / CBSE / State Boards)
+![Board Selection](screenshots/boards.png)
+
+### 📚 Classes & Subjects View
+![Classes & Subjects](screenshots/classes.png)
+
+### 📄 Subject Resources Page
+![Resources Page](screenshots/resources.png)
+
+-- 
+
 ## 📚 Platform Overview
 
 EduBridge acts as a **central academic repository** where students from all educational levels can find:
@@ -331,3 +357,4 @@ A comprehensive platform designed to make education accessible and organized for
 Visit the platform and select your educational level to begin exploring comprehensive learning resources.
 
 [Home](index.html) | [Browse Classes](pages/boards.html)
+
